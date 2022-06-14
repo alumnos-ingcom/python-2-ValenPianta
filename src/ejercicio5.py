@@ -28,8 +28,8 @@ def cadena_balanceada(cadena):
         
 def principal():
     """
-    Esta función es la que se encarga de la parte 'interactiva' del ejercicio
-    (La entrada, la llamada al algoritmo y la salida)
+    Esta función pide introducir una cadena de texto por consola e imprime
+    una cadena de texto indicando si la misma está balanceada o no.
     """
     lista = input("Ingrese la cadena de texto: ")
     resultado = cadena_balanceada(lista)

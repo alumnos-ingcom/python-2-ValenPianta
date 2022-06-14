@@ -25,8 +25,8 @@ def fibonacci(numero):
 
 def principal():
     """
-    Esta función es la que se encarga de la parte 'interactiva' del ejercicio
-    (La entrada, la llamada al algoritmo y la salida)
+    Esta función pide ingresar la posición del numero que se desea obtener de
+    la sucesión de fibonacci.
     """
     valor = int(input("Ingrese posición del numero de la sucesion de fibonacci que desea: "))
     resultado = fibonacci(valor)

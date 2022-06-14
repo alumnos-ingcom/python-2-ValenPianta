@@ -29,4 +29,3 @@ def test_decodificar():
     resultado = decodificar(texto, posiciones)
     assert isinstance(resultado, str), "El resultado debe ser una cadena de texto"
     assert resultado == "hola mundo 987 ZZ", "El resultado esperado es 'hola mundo 987 ZZ'"
-

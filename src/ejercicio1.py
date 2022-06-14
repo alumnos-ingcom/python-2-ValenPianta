@@ -15,8 +15,8 @@ def es_par(numero):
 
 def principal():
     """
-    Esta función es la que se encarga de la parte 'interactiva' del ejercicio
-    (La entrada, la llamada al algoritmo y la salida)
+    Esta función pide introducir un numero por consola y devuelve una cadena
+    de texto que indica si se trata de un numero par o no.
     """
     numero = int(input("Ingrese número: "))
     if es_par(numero):
