@@ -31,3 +31,14 @@ def test_max_min_prom_negativos():
     assert resultado[0] == -1, "El valor máximo no es correcto, se esperaba -1"
     assert resultado[1] == -5, "El valor mínimo no es correcto, se esperaba -5"
     assert resultado[2] == -2.6666666666666665, "El valor promedio no es correcto, se esperaba -2.6666666666666665"
+
+def test_max_min_prom_float():
+    """
+    Caso de prueba de la función max_min_prom() para numeros con coma
+    """
+    secuencia = [2.3, 2.1, 2.5]
+    resultado = max_min_prom(secuencia)
+    assert isinstance(resultado, tuple), "El resultado debe ser una tupla"
+    assert resultado[0] == 2.5, "El valor máximo no es correcto, se esperaba 2.5"
+    assert resultado[1] == 2.1, "El valor mínimo no es correcto, se esperaba 2.1"
+    assert resultado[2] == 2.3, "El valor promedio no es correcto, se esperaba 2.3"

@@ -41,7 +41,7 @@ def principal():
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
     (La entrada, la llamada al algoritmo y la salida)
     """
-    lista = [int(x) for x in input("Ingrese multiples valores separados por ',': ").split(",")]
+    lista = [float(x) for x in input("Ingrese multiples valores separados por ',': ").split(",")]
     resultado = max_min_prom(lista)
     print(f"De la lista {lista} el valor máximo es {resultado[0]}, el minimo es {resultado[1]} y el promedio es {resultado[2]}.")
 
